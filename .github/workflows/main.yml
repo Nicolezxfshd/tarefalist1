@@ -1,6 +1,7 @@
+#Nome do workflow, aparece na actions
   name: Pipeline CI/CD
-
-on:
+# Definir quando o pipeline será disparado
+on: 
   push:
     branches:
       -main
