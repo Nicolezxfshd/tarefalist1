@@ -1,4 +1,4 @@
-name: Pipeline CI/CD
+  name: Pipeline CI/CD
 
 on:
   push:
@@ -15,7 +15,7 @@ on:
     runs-on: ubuntu-latest #Imagem da maquina usada no CI
 
     steps:
-     -name: chechout do código
+     -name: Checkout do código
       uses: actions/checkout@v4
 
       -name: instalação do Node
